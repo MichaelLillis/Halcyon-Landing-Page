@@ -1,7 +1,7 @@
 
 # Halcyon-Landing-Page
 
-Very simple landing page created by [@MichaelLillis](https://github.com/MichaelLillis) using JavaScript, HTML, CSS, and Bootstrap, with an interactive background that allows the [particle.js library](https://vincentgarreau.com/particles.js/)
+Very simple landing page created by [@MichaelLillis](https://github.com/MichaelLillis) using JavaScript, HTML, CSS, and Bootstrap, with an interactive background that allows the [particle.js library](https://vincentgarreau.com/particles.js/).
 
 ## Live Demo 🔥
 [Link to website](https://michaellillis.github.io/Halcyon-Landing-Page/) published via Github Pages!
@@ -15,4 +15,6 @@ Very simple landing page created by [@MichaelLillis](https://github.com/MichaelL
 - Responsive webpage that adjusts for all display sizes.
 
 ## Links 🔗
+[JavaScript](https://www.javascript.com/)
+[Bootstrap](https://getbootstrap.com/)
 [particle.js library](https://vincentgarreau.com/particles.js/)
