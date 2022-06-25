@@ -1,0 +1,145 @@
+
+html,body{
+  width:100%;
+  height:100%;
+  background:#111;
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* broad */
+            user-drag: none;
+}
+
+canvas{
+  display:block;
+  vertical-align:bottom;
+}
+
+div.hub-button {
+  display: table;
+  -moz-transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  margin: 0 auto;
+  float: none;
+}
+
+button {
+  outline: none !important;
+  position: relative;
+  //display:block;
+  height: 55px;
+  width: 160px;
+  margin: 10px 7px;
+  padding: 5px 5px;
+  font-weight: 700;
+  font-size: 15px;
+  letter-spacing: 2px;
+  color: #eaeaea;
+  border: 2px #eaeaea solid;
+  border-radius: 4px;
+  text-transform: uppercase;
+  outline: 0;
+  overflow:hidden;
+  background: none;
+  z-index: 1;
+  cursor: pointer;
+  transition:         0.08s ease-in;
+  -o-transition:      0.08s ease-in;
+  -ms-transition:     0.08s ease-in;
+  -moz-transition:    0.08s ease-in;
+  -webkit-transition: 0.08s ease-in;
+}
+
+.fill:hover {
+  filter: alpha(opacity=50);
+  color: white;
+  border-color: #a30303;
+}
+
+.fill:before {
+  zoom: 1;
+  filter: alpha(opacity=70);
+  opacity: .7;
+  content: "";
+  position: absolute;
+  background: #2d2d2d;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  top: 100%;
+  z-index: -1;
+  -webkit-transition: top .15s ease-in;
+}
+
+.fill:hover:before {
+  top: 0;
+}
+
+.logo-img:hover {
+  filter: brightness(110%);
+  transform: translateZ(0);
+  will-change: transform;
+  -moz-transform: scale(1.05);
+  -webkit-transform: scale(1.05);
+  transform: scale(1.05);
+}
+
+.logo-img {
+  min-width: 220px;
+  min-height: 65px;
+  width: 9%;
+  margin: 115px auto !important;
+  -moz-transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.row {
+  width: 30%;
+  margin-top: 2.5%;
+}
+
+.wrapper {
+  position: absolute;
+  margin: auto;
+  width: 100%;
+}
+
+#particles-js{
+  width: 100%;
+  height: 100%;
+  background-color: #000;
+  background-size: cover;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+}
+
+@media only screen and (max-height:568px){
+   .fill {
+     margin-top: -50px;
+    margin-bottom: 50px !important;
+   }
+  }
+
+@media only screen and (max-width:415px){
+  .logo-img {
+    min-width: 190px !important;
+    min-height: 35px !important;
+    margin-top: 50px !important;
+    }
+    .row {
+      width: 100% !important;
+    }
+  }
+
+  @media only screen and (max-width:1266px){
+      .fill {
+        margin-bottom: 75px;
+      }
+      .row {
+        width: 30%;
+      }
+    }
