@@ -108,6 +108,16 @@ button {
   background-repeat: no-repeat;
 }
 
+::selection {
+  color: none;
+  background: none;
+}
+
+::-moz-selection {
+  color: none;
+  background: none;
+}
+
 @media only screen and (max-height:568px){
    .fill {
      margin-top: -50px;
