@@ -15,6 +15,6 @@ Very simple landing page created by [@MichaelLillis](https://github.com/MichaelL
 - Responsive webpage that adjusts for all display sizes.
 
 ## Links 🔗
-[JavaScript](https://www.javascript.com/)
-[Bootstrap](https://getbootstrap.com/)
-[particle.js library](https://vincentgarreau.com/particles.js/)
+[JavaScript](https://www.javascript.com/)   
+[Bootstrap](https://getbootstrap.com/)   
+[particle.js library](https://vincentgarreau.com/particles.js/)   
